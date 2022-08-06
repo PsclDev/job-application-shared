@@ -1,4 +1,5 @@
 import { BaseInterface } from './base.interface';
+import { FileInterface } from './file.interface';
 import { MeetingInterface } from './meeting.interface';
 import { PersonInterface } from './person.interface';
 
@@ -12,6 +13,6 @@ export interface ApplicationInterface extends BaseInterface {
   status: string;
   notes: string;
   meetings: MeetingInterface[];
-  files: string[];
+  files: FileInterface[];
   isArchived: boolean;
 }
