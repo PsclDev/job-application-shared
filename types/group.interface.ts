@@ -1,11 +1,9 @@
 import { ApplicationInterface } from './application.interface';
+import { BaseInterface } from './base.interface';
 
-export interface GroupInterface {
-  id: string;
+export interface GroupInterface extends BaseInterface {
   name: string;
   description: string;
   applications: ApplicationInterface[];
-  createdAt?: Date;
-  updatedAt?: Date;
   isArchived: boolean;
 }
