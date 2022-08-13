@@ -1,7 +1,7 @@
 import { BaseInterface } from './base.interface';
 
 export interface FileInterface extends BaseInterface {
-  fileName: string;
-  fileSize: number;
-  mimeType: string;
+  name: string;
+  size: number;
+  mime: string;
 }
