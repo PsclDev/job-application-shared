@@ -11,8 +11,7 @@ export interface ApplicationInterface extends BaseInterface {
   company: string;
   contact: PersonInterface;
   jobUrl: string;
-  status: StatusInterface;
-  history: StatusInterface[];
+  status: StatusInterface[];
   notes: string;
   meetings: MeetingInterface[];
   files: FileInterface[];
