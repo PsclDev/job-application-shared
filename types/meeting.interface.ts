@@ -7,4 +7,5 @@ export interface MeetingInterface extends BaseInterface {
   date: Date;
   attendees: PersonInterface[];
   notes: string;
+  link: string;
 }

@@ -1,6 +1,6 @@
 export enum StateEnum {
   PENDING = 'PENDING',
-  SEND = 'SEND',
+  SENT = 'SENT',
   INTERVIEW = 'INTERVIEW',
   ACCEPTED = 'ACCEPTED',
   REJECTED = 'REJECTED',
