@@ -1,5 +1,3 @@
-# Job-Application Shared
+# Job Application
 
-## Features
-
-This repository is used for shared interfaces for both frontend and backend to use
+for a detailed `README.md` go to: [Job Application Frontend](https://github.com/PsclDev/job-application-frontend)
